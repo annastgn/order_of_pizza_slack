@@ -1,0 +1,26 @@
+{
+  "name": "orderofpizzaslack",
+  "version": "1.0.0",
+  "description": "Slackbot that takes orders of pizza",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annastgn/OrderOfPizzaSlack.git"
+  },
+  "author": "annastgn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annastgn/OrderOfPizzaSlack/issues"
+  },
+  "homepage": "https://github.com/annastgn/OrderOfPizzaSlack#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/web-api": "^5.1.0",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
+    "slackbots": "^1.2.0"
+  }
+}
